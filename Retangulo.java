@@ -52,11 +52,19 @@ public class Retangulo {
         return Math.sqrt(a);
     }
 
-    public void String(){
+    //public void String(){
 
-        System.out.printf("A area do retangulo eh: %.2f%n"+
+        /*System.out.printf("A area do retangulo eh: %.2f%n"+
                 "O perimetro do retangulo eh: %.2f%nA diagonal eh: %.2f%n",Area(),Perimetro(),Diagonal());
 
+    }*/
+
+    public String toString(){
+
+        return "A area do retangulo eh: " + String.format("%.2f", Area())+
+                "\nO perimetro eh: " + String.format("%.2f",Perimetro())+
+                "\nA diagonal eh: " + String.format("%.2f",Diagonal()) + "\n";
     }
+
 
 }
