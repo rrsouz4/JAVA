@@ -20,8 +20,7 @@ public class Main {
 
         //System.out.printf("Valores digitados: %.2f e %.2f", retangulo.getAltura(),retangulo.getLargura());
 
-        retangulo.String();
-
+        System.out.println(retangulo);
 
         sc.close();
 
